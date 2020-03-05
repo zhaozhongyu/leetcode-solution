@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5170599-1d15-4894-beec-fc9c238a0598" name="Default Changelist" comment="77">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode-solution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/problem77.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/problem78.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/203. Remove Linked List Elements.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/25. Reverse Nodes in k-Group.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/26. Remove Duplicates from Sorted Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/28. Implement strStr().cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/30. Substring with Concatenation of All Words.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/31. Next Permutation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/32. Longest Valid Parentheses.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/33. Search in Rotated Sorted Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/34. Search for a Range.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/35. Search Insert Position.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CPlusPlus/36. Valid Sudoku.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/104. Maximum Depth of Binary Tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/136. Single Number" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/167. Two Sum II - Input array is sorted" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/2. Add Two Numbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/226. Invert Binary Tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/258. Add Digits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/283. Move Zeroes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/292. Nim Game" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/344. Reverse String" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/349. Intersection of Two Arrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/371. Sum of Two Integers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/383. Ransom Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/389. Find the Difference" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/412. Fizz Buzz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/448. Find All Numbers Disappeared in an Array" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/453. Minimum Moves to Equal Array Elements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/455. Assign Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/461. Hamming Distance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/462. Minimum Moves to Equal Array Elements II" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/463. Island Perimeter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/476. Number Complement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/485. Max Consecutive Ones" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/492. Construct the Rectangle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/496. Next Greater Element I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/500. Keyboard Row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/506. Relative Ranks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/520. Detect Capital" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/521. Longest Uncommon Subsequence I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/530. Minimum Absolute Difference in BST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/557. Reverse Words in a String III" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/javaScript/561. Array Partition I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problem77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problem78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/11. 盛最多水的容器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/11. 盛最多水的容器.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/118. 杨辉三角.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/118. 杨辉三角.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/29. 两数相除.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/29. 两数相除.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/38. 报数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/38. 报数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/39. 组合总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/39. 组合总和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/40. 组合总和2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/40. 组合总和2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/41. 缺失的第一个正数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/41. 缺失的第一个正数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/42.接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/42.接雨水.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/43. 字符串相乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/43. 字符串相乘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/44.通配符匹配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/44.通配符匹配.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/45.跳跃游戏2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/45.跳跃游戏2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/46.全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/46.全排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/47.全排列2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/47.全排列2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/48.旋转图像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/48.旋转图像.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/49.字母异位词分组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/49.字母异位词分组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/50. pow(x,n).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/50. pow(x,n).java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/566. 重塑矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/566. 重塑矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/57.插入区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/57.插入区间.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/72. 编辑距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/72. 编辑距离.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/73. 矩阵置零.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/73. 矩阵置零.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/74. 搜索二维矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/74. 搜索二维矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/75. 颜色分类.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/75. 颜色分类.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/832. 翻转图像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/832. 翻转图像.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/867. 转置矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/867. 转置矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/905. 按奇偶排序数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/old/905. 按奇偶排序数组.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/203. Remove Linked List Elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/203. Remove Linked List Elements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/25. Reverse Nodes in k-Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/25. Reverse Nodes in k-Group.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/26. Remove Duplicates from Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/26. Remove Duplicates from Sorted Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/28. Implement strStr().cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/28. Implement strStr().cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/30. Substring with Concatenation of All Words.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/30. Substring with Concatenation of All Words.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/31. Next Permutation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/31. Next Permutation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/32. Longest Valid Parentheses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/32. Longest Valid Parentheses.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/33. Search in Rotated Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/33. Search in Rotated Sorted Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/34. Search for a Range.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/34. Search for a Range.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/35. Search Insert Position.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/35. Search Insert Position.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/36. Valid Sudoku.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/36. Valid Sudoku.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/104. Maximum Depth of Binary Tree" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/104. Maximum Depth of Binary Tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/136. Single Number" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/136. Single Number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/167. Two Sum II - Input array is sorted" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/167. Two Sum II - Input array is sorted" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/2. Add Two Numbers" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/2. Add Two Numbers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/226. Invert Binary Tree" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/226. Invert Binary Tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/258. Add Digits" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/258. Add Digits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/283. Move Zeroes" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/283. Move Zeroes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/292. Nim Game" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/292. Nim Game" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/344. Reverse String" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/344. Reverse String" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/349. Intersection of Two Arrays" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/349. Intersection of Two Arrays" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/371. Sum of Two Integers" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/371. Sum of Two Integers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/383. Ransom Note" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/383. Ransom Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/389. Find the Difference" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/389. Find the Difference" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/412. Fizz Buzz" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/412. Fizz Buzz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/448. Find All Numbers Disappeared in an Array" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/448. Find All Numbers Disappeared in an Array" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/453. Minimum Moves to Equal Array Elements" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/453. Minimum Moves to Equal Array Elements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/455. Assign Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/455. Assign Cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/461. Hamming Distance" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/461. Hamming Distance" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/462. Minimum Moves to Equal Array Elements II" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/462. Minimum Moves to Equal Array Elements II" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/463. Island Perimeter" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/463. Island Perimeter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/476. Number Complement" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/476. Number Complement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/485. Max Consecutive Ones" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/485. Max Consecutive Ones" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/492. Construct the Rectangle" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/492. Construct the Rectangle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/496. Next Greater Element I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/496. Next Greater Element I" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/500. Keyboard Row" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/500. Keyboard Row" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/506. Relative Ranks" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/506. Relative Ranks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/520. Detect Capital" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/520. Detect Capital" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/521. Longest Uncommon Subsequence I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/521. Longest Uncommon Subsequence I" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/530. Minimum Absolute Difference in BST" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/530. Minimum Absolute Difference in BST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/557. Reverse Words in a String III" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/557. Reverse Words in a String III" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/561. Array Partition I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/561. Array Partition I" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YhjS8JRGjSvrMMlplBr9VYBi49" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunManager" selected="Application.problem78">
+    <configuration name="problem77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.problem77" />
+      <module name="leetcode-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.problem78" />
+      <module name="leetcode-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.problem78" />
+        <item itemvalue="Application.problem77" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5170599-1d15-4894-beec-fc9c238a0598" name="Default Changelist" comment="" />
+      <created>1583401716531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583401716531</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="77" />
+    <option name="LAST_COMMIT_MESSAGE" value="77" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Project_Structure" timestamp="1583407655330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583407655330" />
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583401804205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583401804205" />
+    <state x="436" y="118" key="CommitChangelistDialog2" timestamp="1583413007359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="436" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583413007359" />
+    <state x="601" y="236" key="FileChooserDialogImpl" timestamp="1583407653511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="236" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583407653511" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583413007391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583413007391" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583413007391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583413007391" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583413007391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583413007391" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583413007391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583413007391" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583409350141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583409350141" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583409350141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583409350141" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583409350141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583409350141" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583409350141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583409350141" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1583407711520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583407711520" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583413041016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583413041016" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1583407916641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583407916641" />
+  </component>
+</project>
