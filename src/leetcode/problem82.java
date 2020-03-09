@@ -29,20 +29,14 @@ public class problem82 {
         return result.next;
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,1};
-        ListNode node = new ListNode(-1);
-        ListNode head = node;
-        for (int i = 0; i < nums.length; i++) {
-            node.next = new ListNode(nums[i]);
-            node = node.next;
-        }
-        System.out.print(new problem82().deleteDuplicates(head.next));
+
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
     }
+
 }
 
-class ListNode {
-     int val;
-     ListNode next;
-    ListNode(int x) { val = x; }
- }
+
+
