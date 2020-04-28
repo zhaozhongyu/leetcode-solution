@@ -10,10 +10,10 @@ public class problem81 {
         return false;
     }
 
-    public static void main(String[] args) {
-        int [] nums= new int[]{1,1,1,3,1};
-        System.out.print(new problem81().search(nums, 3));
-    }
+//    public static void main(String[] args) {
+//        int [] nums= new int[]{1,1,1,3,1};
+//        System.out.print(new problem81().search(nums, 3));
+//    }
 
     public static boolean binary(int[] array, int value, int low, int high)
     {

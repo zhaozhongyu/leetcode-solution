@@ -29,8 +29,8 @@ public class problem80 {
         return offset == -1? nums.length : offset;
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,1,1,2,2,3};
-        System.out.print(new problem80().removeDuplicates(nums));
-    }
+//    public static void main(String[] args) {
+//        int[] nums = new int[]{1,1,1,2,2,3};
+//        System.out.print(new problem80().removeDuplicates(nums));
+//    }
 }

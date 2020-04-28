@@ -32,8 +32,8 @@ public class problem78 {
     }
 
 
-    public static void main (String [] args) {
-        int[] nums = new int[]{1,2,3};
-        System.out.print(new problem78().subsets(nums));
-    }
+//    public static void main (String [] args) {
+//        int[] nums = new int[]{1,2,3};
+//        System.out.print(new problem78().subsets(nums));
+//    }
 }

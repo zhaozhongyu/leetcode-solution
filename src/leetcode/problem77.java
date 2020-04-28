@@ -53,8 +53,8 @@ public class problem77 {
         return result;
     }
 
-    public static void main(String[] args) {
-        problem77 p = new problem77();
-        System.out.print(p.combine(3,3));
-    }
+//    public static void main(String[] args) {
+//        problem77 p = new problem77();
+//        System.out.print(p.combine(3,3));
+//    }
 }
