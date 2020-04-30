@@ -20,11 +20,6 @@ public class problem77 {
       [1,4],
     ]
 
-    来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/combinations
-    著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-    * */
-
     /**
      * 思路: 先将1-n加入到一个list, 这时k=1. 然后依次取出来, 从再加一个值, 此时要判断最后一个值不能大于当前循环, 比如2之后不加1, 依次类推
      */
