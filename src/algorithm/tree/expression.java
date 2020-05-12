@@ -1,68 +1,252 @@
 package algorithm.tree;
 
 
-import sun.reflect.generics.tree.Tree;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class expression {
     // 表达式计算
 
-    // 转换为tree
-    public void getTree (String str) {
-        Stack<TreeNode> stack = new Stack<>();
-        int isHighpriority = 0;
-        TreeNode root = null;
-        int start = 0;
-        if (str.charAt(0) == '-') start = 1;
-        for (int i = start; i < str.length(); i++) {
+    // 简单递归
+    public int calcuteStr (String str) {
+        LinkedList<String> list = new LinkedList<>();
+        if (str.length() > 0) {
+            if (str.charAt(0) == '-') { // 去掉首负号, 将负号替换为~
+                str = '~' + str.substring(1);
+            }
+        }
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if (c <= '9' && c >= '0') {
+            if (c == '+' || c == '-' || c == '*' || c == '/') {
+                list.add(String.valueOf(c));
+                while (str.charAt(++i) == ' ') {} // 跳过后面的空格
+                if (str.charAt(i) == '-') { // 算术符后面的负号替换为~
+//                    char[] chars = str.toCharArray();
+//                    chars[i + 1] = '~';
+//                    str = String.valueOf(chars);
+                    c = '~';
+                    i++;
+                } else {
+                    i--; // 修补后面的数字
+                }
+            } else if (c == '(') { // 将整个括号中的内容进行递归
+                int num = 1;
+                int end = 0;
+                for (int j = i + 1; j < str.length(); j++) {
+                    if (str.charAt(j) == '(') num++;
+                    if (str.charAt(j) == ')') num--;
+                    if (num == 0) {
+                        end = j + 1;
+                        break;
+                    }
+                }
+                String subexpression = str.substring(i+1, end-1);
+                list.add(String.valueOf(calcuteStr(subexpression)));
+                i = end;
+            }
+            if ((c >= '0' && c <= '9') || c == '~') {
+                StringBuffer sb = new StringBuffer();
+                if (c == '~') {
+                    sb.append('-');
+                } else {
+                    sb.append(c);
+                }
+                for (int j = i + 1; j < str.length(); j++) {
+                    c = str.charAt(j);
+                    if (c >= '0' && c <= '9') {
+                        sb.append(c);
+                    } else {
+                        i = j - 1;
+                        break;
+                    }
+                    if (j == str.length()-1) {
+                        i = j;
+                    }
+                }
+                list.add(sb.toString());
+            } else if (c == ' ') {
                 continue;
             }
-            TreeNode node = new TreeNode(Integer.valueOf(str.substring(0, i)));
-            stack.push(node);
-            start = i;
+//            else {
+//                System.out.println(c);
+//                throw new RuntimeException("wrong expression!");
+//            }
         }
-        for (int i = start; i < str.length(); i++) {
-            char c = str.charAt(i);
-            if (c == '+' || c == '-') {
-                TreeNode node = new TreeNode(c);
-                TreeNode temp = stack.pop();
-                node.left = temp;
-                stack.push(node);
-            }
-            else if (c == '*' || c == '/') { // 如果是乘除, 则把node里面的右节点置为乘除, 并把原来的右节点设为当前的左节点
-                TreeNode temp = new TreeNode(c);
-                TreeNode node = stack.pop();
-                temp.left = node.right;
-                node.right = temp;
-
-            }
-            else if (c == '(') { // 当isHighpriority 不为0时, 说明在括号内
-                isHighpriority ++;
-            }
-            else if (c == ')') {
-                isHighpriority --;
-            }
-            else {
-                for (int j = i; j < str.length(); j++) {
-                    c = str.charAt(j);
-                    if (c <= '9' && c >= '0') {
-                        continue;
-                    }
-                    TreeNode node = null;
-                    if (j == str.length() - 1) {
-                        node = new TreeNode(Integer.valueOf(str.substring(i, j + 1)));
-                    } else {
-                        node = new TreeNode(Integer.valueOf(str.substring(i, j)));
-                    }
-                    stack.push(node);
+        for (int i = 1; i < list.size()-1; i++) { // 第一趟扫描, 计算所有的乘除
+            String s = list.get(i);
+            if (s.equals("*") || s.equals("/")) {
+                String last = list.get(i-1);
+                String next = list.get(i+1);
+                int result = 0;
+                if (s.equals("*")) {
+                    result = Integer.valueOf(last) * Integer.valueOf(next);
+                } else {
+                    result = Integer.valueOf(last) / Integer.valueOf(next);
                 }
+                list.remove(i+1);
+                list.remove(i);
+                list.remove(i-1);
+                list.add(i-1, String.valueOf(result));
+                i = i-1;
             }
         }
+        for (int i = 1; i < list.size()-1; i++) { // 第二趟扫描, 计算所有的加减
+            String s = list.get(i);
+            if (s.equals("+") || s.equals("-")) {
+                String last = list.get(i-1);
+                String next = list.get(i+1);
+                int result = 0;
+                if (s.equals("+")) {
+                    result = Integer.valueOf(last) + Integer.valueOf(next);
+                } else {
+                    result = Integer.valueOf(last) - Integer.valueOf(next);
+                }
+                list.remove(i+1);
+                list.remove(i);
+                list.remove(i-1);
+                list.add(i-1, String.valueOf(result));
+                i = i-1;
+            }
+        }
+        if (list.size() > 1) throw new RuntimeException("work error");
+        return Integer.parseInt(list.get(0));
     }
+
+    public static void main(String[] args) {
+        // 1+2*3+-4/5*-6
+        new expression().calcuteStr("1 + ( ( 23 + 34 ) * 5 ) - 6");
+    }
+
+    // 转换为tree
+    // 所有的叶子节点必须为数字
+    // 所有非叶子节点必须为计算符
+    // 当扫描遇到同优先级或者低优先级的新计算符时, 将新计算符作为新根节点, 原计算符作为左子树
+    // 当扫描遇到高优先级的新计算符时, 将原右子树作为新计算符的左子树, 新计算符作为根节点的右子树
+    // 扫描遇到括号时, 将整个括号中的内容做substring并递归处理
+//    public TreeNode strToTree(String str) {
+//        if (str.length() > 0) {
+//            if (str.charAt(0) == '-') { // 去掉首负号, 将负号替换为~
+//                str = '~' + str.substring(1);
+//            }
+//        }
+//        Stack<TreeNode> stack = new Stack<>();
+//        HashMap<Character, Integer> map = new HashMap<>();
+//        map.put('+', 1);
+//        map.put('-', 1);
+//        map.put('*', 2);
+//        map.put('/', 2);
+//        map.put('(', 3);
+//        map.put(')', 0);
+//        TreeNode root = null; // root节点表示最低优先的操作符
+//        TreeNode temp = null; // temp 表示最后的操作符
+//        for (int i = 0; i < str.length(); i++) {
+//            char c = str.charAt(i);
+//            if (c == '+' || c == '-' || c == '*' || c == '/') {
+//                if (str.charAt(i+1) == '-') { // 算术符后面的负号替换为~
+//                    char[] chars = str.toCharArray();
+//                    chars[i+1] = '~';
+//                    str = chars.toString();
+//                }
+//                TreeNode node = new TreeNode(c);
+//                if (root.symbol != Character.MIN_VALUE) { // 这里表示是数字节点, 此时将root作为左子树, 构造新的TreeNode作为新root节点
+//                    node.left = root;
+//                    root = node;
+//                } else { // 这里表示root为算术符
+//                    if (map.get(c) <= map.get(root.symbol)) {  // 当扫描遇到同优先级或者低优先级的新计算符时, 将新计算符作为新根节点, 原计算符作为左子树
+//                        node.left = root;
+//                        root = node;
+//                    } else { // 当扫描遇到高优先级的新计算符时, 将原右子树作为新计算符的左子树, 新计算符作为根节点的右子树
+//                        node.left = root.right;
+//                        root.right = node;
+//                    }
+//                }
+//            }
+//            else if (c == '(') { // 将整个括号中的内容进行递归
+//                int num = 1;
+//                int end = 0;
+//                for (int j = i+1; j < str.length(); j++) {
+//                    if (str.charAt(j) == '(') num ++;
+//                    if (str.charAt(j) == ')') num --;
+//                    if (num == 0) {
+//                        end = j+1;
+//                        break;
+//                    }
+//                }
+//                int val = calcuteTree(str.substring(i,end));
+//                i = end;
+//                TreeNode node = new TreeNode(val);
+//
+//            }
+//            else if ((c <= '9' && c >= '0') || c == '~') {
+//
+//            } else if (c == ' '){
+//                continue;
+//            } else {
+//                throw new RuntimeException("unexpected character");
+//            }
+//        }
+//    }
+
+    public int calcuteTree (String str) {
+        return 0;
+    }
+
+
+//    public void getTree (String str) {
+//        Stack<TreeNode> stack = new Stack<>();
+//        int isHighpriority = 0;
+//        TreeNode root = null;
+//        int start = 0;
+//        if (str.charAt(0) == '-') start = 1;
+//        for (int i = start; i < str.length(); i++) {
+//            char c = str.charAt(i);
+//            if (c <= '9' && c >= '0') {
+//                continue;
+//            }
+//            TreeNode node = new TreeNode(Integer.valueOf(str.substring(0, i)));
+//            stack.push(node);
+//            start = i;
+//        }
+//        for (int i = start; i < str.length(); i++) {
+//            char c = str.charAt(i);
+//            if (c == '+' || c == '-') {
+//                TreeNode node = new TreeNode(c);
+//                TreeNode temp = stack.pop();
+//                node.left = temp;
+//                stack.push(node);
+//            }
+//            else if (c == '*' || c == '/') { // 如果是乘除, 则把node里面的右节点置为乘除, 并把原来的右节点设为当前的左节点
+//                TreeNode temp = new TreeNode(c);
+//                TreeNode node = stack.pop();
+//                temp.left = node.right;
+//                node.right = temp;
+//
+//            }
+//            else if (c == '(') { // 当isHighpriority 不为0时, 说明在括号内
+//                isHighpriority ++;
+//            }
+//            else if (c == ')') {
+//                isHighpriority --;
+//            }
+//            else {
+//                for (int j = i; j < str.length(); j++) {
+//                    c = str.charAt(j);
+//                    if (c <= '9' && c >= '0') {
+//                        continue;
+//                    }
+//                    TreeNode node = null;
+//                    if (j == str.length() - 1) {
+//                        node = new TreeNode(Integer.valueOf(str.substring(i, j + 1)));
+//                    } else {
+//                        node = new TreeNode(Integer.valueOf(str.substring(i, j)));
+//                    }
+//                    stack.push(node);
+//                }
+//            }
+//        }
+//    }
 
     // Tree计算
 
@@ -153,9 +337,7 @@ public class expression {
         System.out.print(s2);
     }
 
-    public static void main(String[] args) {
-        new expression().calcute("1+((23+34)*5)-6");
-    }
+
 }
 
 
@@ -173,10 +355,11 @@ class TreeNode {
             throw new RuntimeException("wrong symbol!");
         }
         symbol = symb;
+        val = Integer.MIN_VALUE;
     }
 
     TreeNode(int x) {
-        val = x;
+        val = x;symbol = Character.MIN_VALUE;
     }
 
     TreeNode(int val, TreeNode left, TreeNode right) {
