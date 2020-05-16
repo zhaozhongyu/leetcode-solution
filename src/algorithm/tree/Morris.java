@@ -1,6 +1,6 @@
 package algorithm.tree;
 
-import leetcode.TreeNode;
+import leetcode.tree.TreeNode;
 
 public class Morris {
     // https://www.jianshu.com/p/484f587c967c
