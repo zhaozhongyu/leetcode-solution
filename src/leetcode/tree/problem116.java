@@ -16,23 +16,23 @@ public class problem116 {
      *
      * */
 
-    public Node connect(Node root) {
-        if (root == null || root.left == null || root.right == null) return root;
-        Node temp = root;
-        Node leftNode = root;
-        // 按层指向, 抵达下一层时, 以最左边节点开始
-        while (temp != null && temp.left != null) { //到达最后一层时已经不需要继续了
-            temp.left.next = temp.right;
-            if (temp.next != null) {
-                temp.right.next = temp.next.left;
-                temp = temp.next;
-            } else {
-                temp = leftNode.left; // 下一层
-                leftNode = leftNode.left;
-            }
-        }
-        return root;
-    }
+//    public Node connect(Node root) {
+//        if (root == null || root.left == null || root.right == null) return root;
+//        Node temp = root;
+//        Node leftNode = root;
+//        // 按层指向, 抵达下一层时, 以最左边节点开始
+//        while (temp != null && temp.left != null) { //到达最后一层时已经不需要继续了
+//            temp.left.next = temp.right;
+//            if (temp.next != null) {
+//                temp.right.next = temp.next.left;
+//                temp = temp.next;
+//            } else {
+//                temp = leftNode.left; // 下一层
+//                leftNode = leftNode.left;
+//            }
+//        }
+//        return root;
+//    }
 }
 
 //class Node {
