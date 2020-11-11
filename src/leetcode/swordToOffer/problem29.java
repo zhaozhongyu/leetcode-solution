@@ -1,5 +1,6 @@
 package leetcode.swordToOffer;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -20,8 +21,8 @@ public class problem29 {
      * 输出：[1,2,3,4,8,12,11,10,9,5,6,7]
      * */
     public int[] spiralOrder(int[][] matrix) {
-        List<Integer> res = new LinkedList<Integer>();
-        if(matrix.length == 0) return res;
+        if(matrix.length == 0) return new int[0];
+        ArrayList<Integer> res = new ArrayList<>();
         int m = matrix.length, n = matrix[0].length;
         // 计算圈数
         int lvl = (Math.min(m, n) + 1) / 2;
@@ -59,6 +60,10 @@ public class problem29 {
                 }
             }
         }
-        return res;
+        int[] result = new int[res.size()];
+        for (int i = 0; i < res.size(); i++) {
+            result[i] = res.get(i);
+        }
+        return result;
     }
 }
