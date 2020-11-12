@@ -1,4 +1,4 @@
-package leetcode.javasrc;
+package leetcode.java;
 
 public class problem50 {
 
