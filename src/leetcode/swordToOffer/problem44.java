@@ -41,17 +41,5 @@ public class problem44 {
         return res;
     }
 
-    public static void main(String[] args) {
-        int n = 1000000000;
-        int d = new problem44().findNthDigit(n);
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < 1000; i++) {
-            sb.append(i);
-        }
-        char c = sb.charAt(n);
-        String s = sb.substring(0, 10);
-        String s1 = sb.substring(10, 189 +1);
-        String s2 = sb.substring(190, 2890);
-        System.out.println(d);
-    }
+
 }

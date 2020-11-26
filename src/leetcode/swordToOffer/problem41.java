@@ -31,29 +31,29 @@ public class problem41 {
      * 输出：[null,null,2.00000,null,2.50000]
      * */
 
-    public static void main(String[] args) {
-        MedianFinder mf = new MedianFinder();
-        mf.addNum(12);
-        mf.addNum(10);
-        mf.addNum(13);
-        mf.addNum(5);
-        mf.addNum(15);
-        mf.addNum(11);
-        mf.addNum(6);
-        mf.addNum(17);
-        mf.addNum(14);
-        mf.addNum(8);
-        mf.addNum(17);
-        mf.addNum(6);
-        mf.addNum(4);
-        mf.addNum(16);
-        mf.addNum(8);
-        mf.addNum(10);
-        mf.addNum(2);
-        mf.addNum(12);
+//    public static void main(String[] args) {
+//        MedianFinder mf = new MedianFinder();
 //        mf.addNum(12);
-        mf.addNum(0);
-    }
+//        mf.addNum(10);
+//        mf.addNum(13);
+//        mf.addNum(5);
+//        mf.addNum(15);
+//        mf.addNum(11);
+//        mf.addNum(6);
+//        mf.addNum(17);
+//        mf.addNum(14);
+//        mf.addNum(8);
+//        mf.addNum(17);
+//        mf.addNum(6);
+//        mf.addNum(4);
+//        mf.addNum(16);
+//        mf.addNum(8);
+//        mf.addNum(10);
+//        mf.addNum(2);
+//        mf.addNum(12);
+////        mf.addNum(12);
+//        mf.addNum(0);
+//    }
 }
 class MedianFinder {
     ArrayList<Integer> list;
