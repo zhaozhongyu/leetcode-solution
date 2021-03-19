@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5170599-1d15-4894-beec-fc9c238a0598" name="Default Changelist" comment="77">
-      <change afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/problem77.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/problem78.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problem79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problem80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problem81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problem82.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/203. Remove Linked List Elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/203. Remove Linked List Elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/25. Reverse Nodes in k-Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/25. Reverse Nodes in k-Group.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/26. Remove Duplicates from Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/26. Remove Duplicates from Sorted Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/28. Implement strStr().cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/28. Implement strStr().cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/30. Substring with Concatenation of All Words.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/30. Substring with Concatenation of All Words.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/31. Next Permutation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/31. Next Permutation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/32. Longest Valid Parentheses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/32. Longest Valid Parentheses.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/33. Search in Rotated Sorted Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/33. Search in Rotated Sorted Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/34. Search for a Range.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/34. Search for a Range.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/35. Search Insert Position.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/35. Search Insert Position.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/CPlusPlus/36. Valid Sudoku.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/CPlusPlus/36. Valid Sudoku.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/104. Maximum Depth of Binary Tree" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/104. Maximum Depth of Binary Tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/136. Single Number" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/136. Single Number" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/167. Two Sum II - Input array is sorted" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/167. Two Sum II - Input array is sorted" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/2. Add Two Numbers" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/2. Add Two Numbers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/226. Invert Binary Tree" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/226. Invert Binary Tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/258. Add Digits" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/258. Add Digits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/283. Move Zeroes" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/283. Move Zeroes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/292. Nim Game" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/292. Nim Game" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/344. Reverse String" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/344. Reverse String" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/349. Intersection of Two Arrays" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/349. Intersection of Two Arrays" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/371. Sum of Two Integers" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/371. Sum of Two Integers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/383. Ransom Note" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/383. Ransom Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/389. Find the Difference" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/389. Find the Difference" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/412. Fizz Buzz" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/412. Fizz Buzz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/448. Find All Numbers Disappeared in an Array" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/448. Find All Numbers Disappeared in an Array" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/453. Minimum Moves to Equal Array Elements" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/453. Minimum Moves to Equal Array Elements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/455. Assign Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/455. Assign Cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/461. Hamming Distance" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/461. Hamming Distance" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/462. Minimum Moves to Equal Array Elements II" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/462. Minimum Moves to Equal Array Elements II" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/463. Island Perimeter" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/463. Island Perimeter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/476. Number Complement" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/476. Number Complement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/485. Max Consecutive Ones" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/485. Max Consecutive Ones" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/492. Construct the Rectangle" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/492. Construct the Rectangle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/496. Next Greater Element I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/496. Next Greater Element I" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/500. Keyboard Row" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/500. Keyboard Row" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/506. Relative Ranks" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/506. Relative Ranks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/520. Detect Capital" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/520. Detect Capital" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/521. Longest Uncommon Subsequence I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/521. Longest Uncommon Subsequence I" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/530. Minimum Absolute Difference in BST" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/530. Minimum Absolute Difference in BST" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/557. Reverse Words in a String III" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/557. Reverse Words in a String III" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/javaScript/561. Array Partition I" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/leetcode-solution/leetcode/javaScript/561. Array Partition I" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +26,12 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -156,18 +109,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
