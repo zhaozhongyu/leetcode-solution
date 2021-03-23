@@ -37,7 +37,3 @@ var treeHeight = function (root) {
   let abs = Math.abs(left - right);
   return abs > 1 ? -1 : Math.max(left, right);
 }
-
-let node1 = new TreeNode(2);
-let node = new TreeNode(1, node1)
-isBalanced(node);
