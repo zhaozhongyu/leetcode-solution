@@ -1,4 +1,4 @@
-package Go
+package main
 
 // 计算有向无环图
 func findRedundantDirectedConnection(edges [][]int) []int {

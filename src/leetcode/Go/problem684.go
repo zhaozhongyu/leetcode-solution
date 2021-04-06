@@ -1,4 +1,4 @@
-package Go
+package main
 
 func find(parent []int, x int) int {
 	if parent[x] != x {

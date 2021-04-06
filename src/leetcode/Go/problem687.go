@@ -29,8 +29,3 @@ func getMaxPath(root *TreeNode, val int) int {
 	}
 	return 0
 }
-
-func main() {
-	root := CreateTreeNode([]int{1, 4, 5, 4, 4, 5})
-	longestUnivaluePath(root)
-}
