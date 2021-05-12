@@ -1,9 +1,10 @@
 package leetcode.swordToOffer;
 
 public class ListNode {
-   int val;
-   ListNode next;
+   public int val;
+   public ListNode next;
    ListNode(int x) { val = x; }
+   ListNode(int val, ListNode next) { this.val = val; this.next = next; }
    static ListNode createListNode(int[] nums) {
       ListNode head = new ListNode(-1);
       ListNode temp = head;
