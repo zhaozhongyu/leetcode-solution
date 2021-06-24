@@ -27,9 +27,9 @@ public class problem416 {
             dp[i][0] = true;
         }
         dp[0][nums[0]] = true;
-        // 创建二维数组 \textit{dp}dp，包含 nn 行 \textit{target}+1target+1 列，其中 \textit{dp}[i][j]dp[i][j]
-        // 表示从数组的 [0,i][0,i] 下标范围内选取若干个正整数（可以是 00 个），是否存在一种选取方案使得被选取的正整数的和等于 jj。
-        // 初始时，\textit{dp}dp 中的全部元素都是 \text{false}false。
+        // 创建二维数组 dp，包含 n 行 target+1 列，其中 dp[i][j]
+        // 表示从数组的 [0,i] 下标范围内选取若干个正整数（可以是 0 个），是否存在一种选取方案使得被选取的正整数的和等于 j。
+        // 初始时，dp 中的全部元素都是 false。
         for (int i = 1; i < n; i++) {
             int num = nums[i];
             for (int j = 1; j <= target; j++) {
