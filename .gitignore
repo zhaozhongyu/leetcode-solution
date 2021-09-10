@@ -2,3 +2,4 @@
 .vscode/
 output/
 .class
+/node_modules/

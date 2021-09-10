@@ -8,6 +8,16 @@ import java.util.List;
 public class problem131 {
     HashMap<String, List<List<String>>> map = new HashMap<>();
     public List<List<String>> partition(String s) {
+        if (map.containsKey(s)) {
+            List<List<String>> lists = map.get(s);
+            List<List<String>> copys = new ArrayList<>();
+            for (List<String> list : lists) {
+                List<String> copy = new LinkedList<>();
+                copy.addAll(list);
+                copys.add(copy);
+            }
+            return copys;
+        }
         List<List<String>> lists = new ArrayList<>();
         if (s.length() == 0) {
             return lists;
@@ -17,8 +27,8 @@ public class problem131 {
             list.add(s);
             lists.add(list);
         }
-        if (map.containsKey(s)) {
-            return map.get(s);
+        if (s.length() == 1) {
+            return lists;
         }
 
         List<List<String>> sublists = partition(s.substring(1));
@@ -38,6 +48,13 @@ public class problem131 {
                 }
             }
         }
+        List<List<String>> copys = new ArrayList<>();
+        for (List<String> list : lists) {
+            List<String> copy = new LinkedList<>();
+            copy.addAll(list);
+            copys.add(copy);
+        }
+        map.put(s, copys);
         return lists;
     }
 
@@ -54,7 +71,7 @@ public class problem131 {
     }
 
     public static void main(String[] s) {
-        List<List<String>> l = new problem131().partition("aa");
+        List<List<String>> l = new problem131().partition("abbab");
         System.out.println(l);
     }
 }

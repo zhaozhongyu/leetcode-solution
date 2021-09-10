@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "alwaysStrict": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "lib": ["dom", "es5", "es2015", "es2017", "dom.iterable"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "types": [
+      // "@types/node",
+    ]
+  },
+  "include": ["./src/typescript/*.ts"],
+  "exclude": ["**/*.spec.ts"]
+}

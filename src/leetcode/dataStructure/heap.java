@@ -78,79 +78,79 @@ public class heap {
 //
 //    }
 
-    class ArrayPriorityQueue {
+}
 
-        private final int maxSize;
+class ArrayPriorityQueue {
 
-        private int length = 0;
+    private final int maxSize;
 
-        private final int[][] array;
+    private int length = 0;
 
-        public ArrayPriorityQueue(int maxSize) {
-            this.maxSize = maxSize;
-            this.array = new int[this.maxSize][2];
+    private final int[][] array;
+
+    public ArrayPriorityQueue(int maxSize) {
+        this.maxSize = maxSize;
+        this.array = new int[this.maxSize][2];
+    }
+
+    public boolean isEmpty() {
+        return this.length == 0;
+    }
+
+    public int[] peek() {
+        return this.array[0];
+    }
+
+    public boolean isFull() {
+        return this.length == this.maxSize;
+    }
+
+    public void enQueue(int[] data) {
+        if (isFull()) {
+            this.array[0] = data;
+            // 从堆顶开始调整堆
+            adjustHeap(this.array, this.length);
+        } else {
+            // 如果不是满的, 需要将其挂到最后的位置, 然后往上浮
+            this.array[this.length] = data;
+            int rootIndex = this.length++;
+            int parentIndex = rootIndex % 2 == 0 ? rootIndex / 2 - 1 : rootIndex / 2;
+            while (rootIndex > 0 && data[1] < this.array[parentIndex][1]) {
+                // 元素下沉(就是这个位置, 用的rootIndex / 2而不是parentIndex, 改了两次才改好)
+                this.array[rootIndex] = this.array[parentIndex];
+                // 第一次就是改这里, 原本是rootIndex /= 2, 但是因为根节点是从0开始的, 因此需要加判断
+                rootIndex = parentIndex;
+                parentIndex = rootIndex % 2 == 0 ? rootIndex / 2 - 1 : rootIndex / 2;
+            }
+            this.array[rootIndex] = data;
         }
+    }
 
-        public boolean isEmpty() {
-            return this.length == 0;
-        }
+    public int[][] getArray() {
+        return this.array;
+    }
 
-        public int[] peek() {
-            return this.array[0];
-        }
-
-        public boolean isFull() {
-            return this.length == this.maxSize;
-        }
-
-        public void enQueue(int[] data) {
-            if (isFull()) {
-                this.array[0] = data;
-                // 从堆顶开始调整堆
-                adjustHeap(this.array, this.length);
+    private void adjustHeap(int[][] array, int length) {
+        // 取出当前子树的根元素的值
+        int index = 0;
+        int[] root = array[index];
+        for (int leftOrRightIndex = 1; leftOrRightIndex < length; leftOrRightIndex = leftOrRightIndex * 2 + 1) {
+            // 找出root的左右子树谁小
+            if (leftOrRightIndex + 1 < length && array[leftOrRightIndex][1] > array[leftOrRightIndex + 1][1]) {
+                // 右子树的根更小, 转右子树
+                leftOrRightIndex++;
+            }
+            if (root[1] > array[leftOrRightIndex][1]) {
+                // 根的值下移动, 虽然此时root的左/右子树的值覆盖了它父节点的值, 但是没关系, 它父节点的值保存在了root中
+                // 没有进行上移的那个子树本身就符合堆, 不需要管; 调整发生了改变的子树
+                array[index] = array[leftOrRightIndex];
+                index = leftOrRightIndex;
             } else {
-                // 如果不是满的, 需要将其挂到最后的位置, 然后往上浮
-                this.array[this.length] = data;
-                int rootIndex = this.length++;
-                int parentIndex = rootIndex % 2 == 0 ? rootIndex / 2 - 1 : rootIndex / 2;
-                while (rootIndex > 0 && data[1] < this.array[parentIndex][1]) {
-                    // 元素下沉(就是这个位置, 用的rootIndex / 2而不是parentIndex, 改了两次才改好)
-                    this.array[rootIndex] = this.array[parentIndex];
-                    // 第一次就是改这里, 原本是rootIndex /= 2, 但是因为根节点是从0开始的, 因此需要加判断
-                    rootIndex = parentIndex;
-                    parentIndex = rootIndex % 2 == 0 ? rootIndex / 2 - 1 : rootIndex / 2;
-                }
-                this.array[rootIndex] = data;
+                // 调整结束, 当前子树的根适合放root值
+                break;
             }
+            array[index] = root;
         }
-
-        public int[][] getArray() {
-            return this.array;
-        }
-
-        private void adjustHeap(int[][] array, int length) {
-            // 取出当前子树的根元素的值
-            int index = 0;
-            int[] root = array[index];
-            for (int leftOrRightIndex = 1; leftOrRightIndex < length; leftOrRightIndex = leftOrRightIndex * 2 + 1) {
-                // 找出root的左右子树谁小
-                if (leftOrRightIndex + 1 < length && array[leftOrRightIndex][1] > array[leftOrRightIndex + 1][1]) {
-                    // 右子树的根更小, 转右子树
-                    leftOrRightIndex++;
-                }
-                if (root[1] > array[leftOrRightIndex][1]) {
-                    // 根的值下移动, 虽然此时root的左/右子树的值覆盖了它父节点的值, 但是没关系, 它父节点的值保存在了root中
-                    // 没有进行上移的那个子树本身就符合堆, 不需要管; 调整发生了改变的子树
-                    array[index] = array[leftOrRightIndex];
-                    index = leftOrRightIndex;
-                } else {
-                    // 调整结束, 当前子树的根适合放root值
-                    break;
-                }
-                array[index] = root;
-            }
-        }
-
     }
 
 }

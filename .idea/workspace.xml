@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,11 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5170599-1d15-4894-beec-fc9c238a0598" name="Default Changelist" comment="77">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/java/problem110.java" afterDir="false" />
+    <list default="true" id="b5170599-1d15-4894-beec-fc9c238a0598" name="Default Changelist" comment="problem131.java">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Go/problem834.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/java/problem313.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/dataStructure/heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/dataStructure/heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/java/problem131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/java/problem131.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +39,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file://C:/Go" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zzy" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1YhjS8JRGjSvrMMlplBr9VYBi49" />
   <component name="ProjectLevelVcsManager">
@@ -51,22 +72,28 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.problem110">
-    <configuration name="problem110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem110" />
+  <component name="RunManager" selected="Application.problem131">
+    <configuration name="problem131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem131" />
       <module name="leetcode-solution" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.problem78" />
+    <configuration name="problem240" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem240" />
       <module name="leetcode-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,19 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.problem80" />
-      <module name="leetcode-solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="problem81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.problem81" />
+    <configuration name="problem301" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem301" />
       <module name="leetcode-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="problem82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.problem82" />
+    <configuration name="problem494" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem494" />
       <module name="leetcode-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +144,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="problem91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.java.problem91" />
+      <module name="leetcode-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.problem494" />
+      <item itemvalue="Application.problem240" />
+      <item itemvalue="Application.problem301" />
+      <item itemvalue="Application.problem91" />
+      <item itemvalue="Application.problem131" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.problem110" />
-        <item itemvalue="Application.problem82" />
-        <item itemvalue="Application.problem81" />
-        <item itemvalue="Application.problem80" />
-        <item itemvalue="Application.problem78" />
+        <item itemvalue="Application.problem131" />
+        <item itemvalue="Application.problem91" />
+        <item itemvalue="Application.problem301" />
+        <item itemvalue="Application.problem240" />
+        <item itemvalue="Application.problem494" />
       </list>
     </recent_temporary>
   </component>
@@ -146,15 +186,354 @@
       <option name="presentableId" value="Default" />
       <updated>1583401716531</updated>
     </task>
-    <task id="LOCAL-00001" summary="77">
-      <created>1583413063781</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00002" summary="77">
+      <created>1616507582035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1583413063781</updated>
+      <updated>1616507582036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00003" summary="problem 341">
+      <created>1616517901520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616517901520</updated>
+    </task>
+    <task id="LOCAL-00004" summary="problem 965">
+      <created>1616555741554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616555741554</updated>
+    </task>
+    <task id="LOCAL-00005" summary="problem 993">
+      <created>1616568468949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616568468949</updated>
+    </task>
+    <task id="LOCAL-00006" summary="problem 783">
+      <created>1616572814311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616572814311</updated>
+    </task>
+    <task id="LOCAL-00007" summary="interview problem 0402">
+      <created>1616576393884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616576393884</updated>
+    </task>
+    <task id="LOCAL-00008" summary="problem 700">
+      <created>1616576688516</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616576688516</updated>
+    </task>
+    <task id="LOCAL-00009" summary="problem 938">
+      <created>1616577666046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616577666046</updated>
+    </task>
+    <task id="LOCAL-00010" summary="problem 938">
+      <created>1616578648910</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616578648911</updated>
+    </task>
+    <task id="LOCAL-00011" summary="problem 938">
+      <created>1616579117352</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616579117352</updated>
+    </task>
+    <task id="LOCAL-00012" summary="problem 1712">
+      <created>1616585616587</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616585616587</updated>
+    </task>
+    <task id="LOCAL-00013" summary="problem 1712">
+      <created>1616594022501</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616594022501</updated>
+    </task>
+    <task id="LOCAL-00014" summary="problem139">
+      <created>1620654189779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620654189779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="problem146, 艰难的lru">
+      <created>1620737952668</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620737952668</updated>
+    </task>
+    <task id="LOCAL-00016" summary="problem160">
+      <created>1620739488940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620739488940</updated>
+    </task>
+    <task id="LOCAL-00017" summary="problem739">
+      <created>1620741534103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620741534103</updated>
+    </task>
+    <task id="LOCAL-00018" summary="problem142II.java">
+      <created>1620746279831</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620746279831</updated>
+    </task>
+    <task id="LOCAL-00019" summary="problem647.java">
+      <created>1620821980888</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620821980888</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ListNode">
+      <created>1620822058297</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620822058297</updated>
+    </task>
+    <task id="LOCAL-00021" summary="problem581">
+      <created>1620907067135</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620907067135</updated>
+    </task>
+    <task id="LOCAL-00022" summary="problem234.java">
+      <created>1620909124775</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620909124775</updated>
+    </task>
+    <task id="LOCAL-00023" summary="problem148.java">
+      <created>1621214759076</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214759076</updated>
+    </task>
+    <task id="LOCAL-00024" summary="problem238.java 没思路看了评论">
+      <created>1621214853163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214853163</updated>
+    </task>
+    <task id="LOCAL-00025" summary="problem560.java">
+      <created>1621214912633</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214912633</updated>
+    </task>
+    <task id="LOCAL-00026" summary="problem560.java">
+      <created>1621214934595</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214934595</updated>
+    </task>
+    <task id="LOCAL-00027" summary="problem560.java">
+      <created>1621215910586</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621215910586</updated>
+    </task>
+    <task id="LOCAL-00028" summary="problem152.java">
+      <created>1621254635866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1621254635866</updated>
+    </task>
+    <task id="LOCAL-00029" summary="problem279.java">
+      <created>1621256583027</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621256583027</updated>
+    </task>
+    <task id="LOCAL-00030" summary="problem198.java">
+      <created>1621257833669</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621257833669</updated>
+    </task>
+    <task id="LOCAL-00031" summary="problem438.java">
+      <created>1621258593335</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621258593335</updated>
+    </task>
+    <task id="LOCAL-00032" summary="problem347.java">
+      <created>1621347200072</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621347200072</updated>
+    </task>
+    <task id="LOCAL-00033" summary="heap.java">
+      <created>1621424749981</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1621424749981</updated>
+    </task>
+    <task id="LOCAL-00034" summary="problem200.java">
+      <created>1621431868136</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1621431868136</updated>
+    </task>
+    <task id="LOCAL-00035" summary="problem128.java">
+      <created>1624367142817</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1624367142817</updated>
+    </task>
+    <task id="LOCAL-00036" summary="problem300.java">
+      <created>1624369488536</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1624369488536</updated>
+    </task>
+    <task id="LOCAL-00037" summary="problem406.java, 用了官方方法">
+      <created>1624417734220</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1624417734220</updated>
+    </task>
+    <task id="LOCAL-00038" summary="problem406.java, 用了官方方法">
+      <created>1624417768877</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1624417768877</updated>
+    </task>
+    <task id="LOCAL-00039" summary="problem399.java, 用了官方方法">
+      <created>1624447853343</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1624447853343</updated>
+    </task>
+    <task id="LOCAL-00040" summary="problem621.java, 打败98%">
+      <created>1624466326886</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1624466326886</updated>
+    </task>
+    <task id="LOCAL-00041" summary="problem416.java,">
+      <created>1624534588359</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1624534588359</updated>
+    </task>
+    <task id="LOCAL-00042" summary="problem309.java">
+      <created>1624553516201</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1624553516201</updated>
+    </task>
+    <task id="LOCAL-00043" summary="problem494.java">
+      <created>1624553553415</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1624553553415</updated>
+    </task>
+    <task id="LOCAL-00044" summary="problem240.java 不看题解不知道自己蠢系列...">
+      <created>1624639942157</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1624639942157</updated>
+    </task>
+    <task id="LOCAL-00045" summary="problem221.java">
+      <created>1624679201653</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1624679201653</updated>
+    </task>
+    <task id="LOCAL-00046" summary="problem88.java">
+      <created>1624783906228</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783906228</updated>
+    </task>
+    <task id="LOCAL-00047" summary="problem125.java">
+      <created>1627477177119</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1627477177119</updated>
+    </task>
+    <task id="LOCAL-00048" summary="problem91.java">
+      <created>1627642169257</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1627642169257</updated>
+    </task>
+    <task id="LOCAL-00049" summary="problem122.java">
+      <created>1627643031299</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1627643031299</updated>
+    </task>
+    <task id="LOCAL-00050" summary="problem131.java">
+      <created>1628007102467</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1628007102467</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -166,82 +545,55 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="77" />
-    <option name="LAST_COMMIT_MESSAGE" value="77" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2681" y="364" key="FileChooserDialogImpl" timestamp="1616502463318">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2681" y="364" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616502463318" />
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom" timestamp="1616503150053">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150053" />
-    <state width="1877" height="364" key="GridCell.Tab.0.center" timestamp="1616503150053">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150053" />
-    <state width="1877" height="364" key="GridCell.Tab.0.left" timestamp="1616503150053">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150053" />
-    <state width="1877" height="364" key="GridCell.Tab.0.right" timestamp="1616503150053">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150053" />
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1616503150222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150222" />
-    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1616503150222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150222" />
-    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1616503150222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150222" />
-    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1616503150222">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616503150222" />
-    <state x="2381" y="184" key="SettingsEditor" timestamp="1616493702863">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2381" y="184" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1616493702863" />
+    <MESSAGE value="problem148.java" />
+    <MESSAGE value="problem238.java 没思路看了评论" />
+    <MESSAGE value="problem560.java" />
+    <MESSAGE value="problem152.java" />
+    <MESSAGE value="problem279.java" />
+    <MESSAGE value="problem198.java" />
+    <MESSAGE value="problem438.java" />
+    <MESSAGE value="problem347.java" />
+    <MESSAGE value="heap.java" />
+    <MESSAGE value="problem200.java" />
+    <MESSAGE value="problem128.java" />
+    <MESSAGE value="problem300.java" />
+    <MESSAGE value="problem406.java, 用了官方方法" />
+    <MESSAGE value="problem399.java, 用了官方方法" />
+    <MESSAGE value="problem621.java, 打败98%" />
+    <MESSAGE value="problem416.java," />
+    <MESSAGE value="problem309.java" />
+    <MESSAGE value="problem494.java" />
+    <MESSAGE value="problem240.java 不看题解不知道自己蠢系列..." />
+    <MESSAGE value="problem221.java" />
+    <MESSAGE value="problem88.java" />
+    <MESSAGE value="problem125.java" />
+    <MESSAGE value="problem91.java" />
+    <MESSAGE value="problem122.java" />
+    <MESSAGE value="problem131.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem131.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/problem80.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/leetcode/java/problem198.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/problem80.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/problem81.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/problem82.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/problem82.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/leetcode/java/problem131.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="leetcode.java.LRUCache$Node" memberName="pre" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

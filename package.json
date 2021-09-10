@@ -1,0 +1,26 @@
+{
+  "name": "leetcode-solution",
+  "description": "放LeetCode 答案",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^16.9.1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaozhongyu/leetcode-solution.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaozhongyu/leetcode-solution/issues"
+  },
+  "homepage": "https://github.com/zhaozhongyu/leetcode-solution#readme"
+  
+}
