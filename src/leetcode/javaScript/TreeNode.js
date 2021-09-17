@@ -25,6 +25,10 @@ function createTreeNode(nums) {
 }
 
 function printTreeNode(root) {
+  if (!root) {
+    console.log('[]');
+    return;
+  }
   let vals = [];
   let list = [root];
   while (list.length) {
