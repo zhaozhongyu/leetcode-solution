@@ -24,6 +24,26 @@ function createTreeNode(nums) {
   return root;
 }
 
+function printTreeNode(root) {
+  let vals = [];
+  let list = [root];
+  while (list.length) {
+    let node = list.shift();
+    vals.push(node && node.val || 'null');
+    if (node) {
+      list.push(node.left);
+      list.push(node.right);
+    }
+  }
+  for (let i = vals.length - 1; i >= 0; i--) {
+    if (vals[i] !== 'null') {
+      vals = vals.slice(0, i + 1);
+      break;
+    }
+  }
+  console.log('[' + vals.join(',') + ']');
+}
+
 module.exports.createTreeNode = createTreeNode
 module.exports.TreeNode = TreeNode
-
+module.exports.printTreeNode = printTreeNode;
